@@ -82,7 +82,7 @@ body {
   .last {
     transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
   }
-  .scroll-info, header {
+  .scroll-info {
     position: absolute;
     left: 1rem;
   }
@@ -133,3 +133,14 @@ body {
 
   }
  
+
+  @media screen and (max-width: 991px) {
+    .horizontal-scroll-wrapper {
+        
+       
+        transform-origin: right bottom;
+        
+        
+      }
+  }
+
